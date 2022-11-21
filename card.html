@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matching-card Game</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="card.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="control-buttons">
+        <span>Start Game</span>
+      </div>
+      <div class="info-container">
+        <div class="name">Hello: <span></span></div>
+      </div>
+      <div id="time"></div>
+      <div class="score">Score: <span>0</span></div>
+
+      <ul class="cards">
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-1.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-2.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-3.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-4.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-5.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-6.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-7.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-8.png" alt="card-image" />
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-1.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-2.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-3.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-4.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-5.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-6.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-7.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view"></div>
+          <div class="view back-view">
+            <img src="images/img-8.png" alt="card-image" />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <audio
+      id="success"
+      src="mixkit-arcade-game-complete-or-approved-mission-205.wav"
+      preload="auto"
+    ></audio>
+
+    <audio id="fail" src="1.wav" preload="auto"></audio>
+
+    <!-- Script -->
+    <script src="card.js"></script>
+  </body>
+</html>
